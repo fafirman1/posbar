@@ -74,13 +74,34 @@
                             <div class="form-group">
                                 <label class="form-label">Category</label>
                                 <div class="selectgroup w-100">
+                                    {{-- 'Food','Beer','Soda','Wishky','Wine','Beverage','Liquor' --}}
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="Fresh" class="selectgroup-input" checked="">
-                                        <span class="selectgroup-button">Fresh</span>
+                                        <input type="radio" name="category" value="Food" class="selectgroup-input" checked="">
+                                        <span class="selectgroup-button">Food</span>
                                     </label>
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="Sweet" class="selectgroup-input">
-                                        <span class="selectgroup-button">Sweet</span>
+                                        <input type="radio" name="category" value="Beer" class="selectgroup-input">
+                                        <span class="selectgroup-button">Beer</span>
+                                    </label>
+                                    <label class="selectgroup-item">
+                                        <input type="radio" name="category" value="Soda" class="selectgroup-input">
+                                        <span class="selectgroup-button">Soda</span>
+                                    </label>
+                                    <label class="selectgroup-item">
+                                        <input type="radio" name="category" value="Whisky" class="selectgroup-input">
+                                        <span class="selectgroup-button">Whisky</span>
+                                    </label>
+                                    <label class="selectgroup-item">
+                                        <input type="radio" name="category" value="Wine" class="selectgroup-input">
+                                        <span class="selectgroup-button">Wine</span>
+                                    </label>
+                                    <label class="selectgroup-item">
+                                        <input type="radio" name="category" value="Beverage" class="selectgroup-input">
+                                        <span class="selectgroup-button">Beverage</span>
+                                    </label>
+                                    <label class="selectgroup-item">
+                                        <input type="radio" name="category" value="Liquor" class="selectgroup-input">
+                                        <span class="selectgroup-button">Liquor</span>
                                     </label>
                                 </div>
                             </div>

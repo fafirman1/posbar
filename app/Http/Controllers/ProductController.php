@@ -30,7 +30,7 @@ class ProductController extends Controller
             'name'=>'required|min:3|unique:products',
             'price'=>'required|integer',
             'stock'=>'required|integer',
-            'category'=>'required|in:Fresh,Sweet',
+            'category'=>'required|in:Food,Beer,Soda,Whisky,Wine,Beverage,Liquor',
             'image'=>'required|image|mimes:png,jpg,jpeg'
         ]);
 
