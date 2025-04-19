@@ -71,7 +71,7 @@
                                     <div class="form-group">
                                         <label class="form-label">Category</label>
                                         <div class="selectgroup w-100">
-                                            <label class="selectgroup-item">
+                                            {{-- <label class="selectgroup-item">
                                                 <input type="radio" name="category" value="Fresh" class="selectgroup-input"
                                                 @if ($product->category=='Fresh') checked @endif>
                                                 <span class="selectgroup-button">Fresh</span>
@@ -80,6 +80,42 @@
                                                 <input type="radio" name="category" value="Sweet" class="selectgroup-input"
                                                 @if ($product->category=='Sweet') checked @endif>
                                                 <span class="selectgroup-button">Sweet</span>
+                                            </label> --}}
+
+                                            <label class="selectgroup-item">
+                                                <input type="radio" name="category" value="Food" class="selectgroup-input"
+                                                @if ($product->category=='Food') checked @endif>
+                                                <span class="selectgroup-button">Food</span>
+                                            </label>
+                                            <label class="selectgroup-item">
+                                                <input type="radio" name="category" value="Beer" class="selectgroup-input"
+                                                @if ($product->category=='Beer') checked @endif>
+                                                <span class="selectgroup-button">Beer</span>
+                                            </label>
+                                            <label class="selectgroup-item">
+                                                <input type="radio" name="category" value="Soda" class="selectgroup-input"
+                                                @if ($product->category=='Soda') checked @endif>
+                                                <span class="selectgroup-button">Soda</span>
+                                            </label>
+                                            <label class="selectgroup-item">
+                                                <input type="radio" name="category" value="Whisky" class="selectgroup-input"
+                                                @if ($product->category=='Whisky') checked @endif>
+                                                <span class="selectgroup-button">Whisky</span>
+                                            </label>
+                                            <label class="selectgroup-item">
+                                                <input type="radio" name="category" value="Wine" class="selectgroup-input"
+                                                @if ($product->category=='Wine') checked @endif>
+                                                <span class="selectgroup-button">Wine</span>
+                                            </label>
+                                            <label class="selectgroup-item">
+                                                <input type="radio" name="category" value="Beverage" class="selectgroup-input"
+                                                @if ($product->category=='Beverage') checked @endif>
+                                                <span class="selectgroup-button">Beverage</span>
+                                            </label>
+                                            <label class="selectgroup-item">
+                                                <input type="radio" name="category" value="Liquor" class="selectgroup-input"
+                                                @if ($product->category=='Liquor') checked @endif>
+                                                <span class="selectgroup-button">Liquor</span>
                                             </label>
                                         </div>
                                     </div>
