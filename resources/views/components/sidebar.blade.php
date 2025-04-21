@@ -40,7 +40,7 @@
                     </li>
                 </ul>
             </li>
-{{-- 
+
             <li class="nav-item dropdown">
                 <a href="#" class="nav-link has-dropdown">
                     <i class="fab fa-opencart"></i>
@@ -50,9 +50,9 @@
                         <a class="nav-link" href="{{ route('order.index')}}">Data Transaksi</a>
                     </li>
                 </ul>
-            </li> --}}
+            </li>
 
-            {{-- <div class="dropdown-divider"></div> --}}
+            <div class="dropdown-divider"></div>
             <li class="menu-header">Action</li>
 
             <li class="nav-item dropdown">

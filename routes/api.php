@@ -31,6 +31,6 @@ Route::post('logout', [\App\Http\Controllers\Api\AuthController::class,'logout']
 // api resource product
 Route::apiResource('products', \App\Http\Controllers\Api\ProductController::class)->middleware('auth:sanctum');
 
-// Route::apiResource('orders', \App\Http\Controllers\Api\OrderController::class)->middleware('auth:sanctum');
+Route::apiResource('orders', \App\Http\Controllers\Api\OrderController::class)->middleware('auth:sanctum');
 // // api update stock
 Route::post('products/update-stock', [\App\Http\Controllers\Api\ProductController::class, 'updateStock'])->middleware('auth:sanctum');
