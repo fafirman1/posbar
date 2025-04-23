@@ -35,7 +35,7 @@
                 </p>
 
 
-                <div class="row mt-4">
+                <div class="row mt-4" style="color:black">
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
