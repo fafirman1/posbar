@@ -58,8 +58,8 @@
 </head>
 <body>
     <div class="header">
-        <h1>Cv Lahminajih Beef</h1>
-        <p>Fajar Agung, Kecamatan Pringsewu, Lampung</p>
+        <h1>ROOFTOP CAFE</h1>
+        <p>BBC Hotel Lampung</p>
         <p>Telepon: 0812 7485 9677</p>
     </div>
 
@@ -68,6 +68,8 @@
         <thead>
             <tr>
                 <th>Tanggal Transaksi</th>
+                <th>Guest/Table</th>
+                <th>BO</th>
                 <th>Total</th>
                 <th>Total Item</th>
                 <th>Kasir</th>
@@ -83,6 +85,8 @@
                 @endphp
                 <tr>
                     <td>{{ $order->transaction_time }}</td>
+                    <td></td>
+                    <td></td>
                     <td>Rp. {{ number_format($order->total_price, 0, ',', '.') }}</td>
                     <td>{{ $order->total_item }}</td>
                     <td>

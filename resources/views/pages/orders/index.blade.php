@@ -64,6 +64,8 @@
                                     <table class="table-striped table">
                                         <tr>
                                             <th>Tanggal Transaksi</th>
+                                            <th>Guest</th>
+                                            <th>BO</th>
                                             <th>Total</th>
                                             <th>Total Item</th>
                                             <th>Kasir</th>
@@ -80,6 +82,12 @@
                                                 <a href="{{route('order.show', $order->id)}}">
                                                     {{$order->transaction_time}}
                                                 </a>
+                                            </td>
+                                            <td>
+                                                {{$order->guest}}
+                                            </td>
+                                            <td>
+                                                {{$order->bo}}
                                             </td>
                                             <td>
                                                 Rp. {{ number_format($order->total_price, 0, ',', '.') }}

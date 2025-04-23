@@ -15,6 +15,8 @@ class OrderController extends Controller
     {
         $request->validate([
             'transaction_time' => 'required',
+            'guest'=>'required',
+            'bo'=>'required',
             'kasir_id' => 'required|exists:users,id',
             'total_price' => 'required|numeric',
             'total_item' => 'required|numeric',
@@ -26,6 +28,8 @@ class OrderController extends Controller
 
         $order = \App\Models\order::create([
             'transaction_time' => $request->transaction_time,
+            'guest'=>$request->guest,
+            'bo'=>$request->bo,
             'kasir_id' => $request->kasir_id,
             'total_price' => $request->total_price,
             'total_item' => $request->total_item,

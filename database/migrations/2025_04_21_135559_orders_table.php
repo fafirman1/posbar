@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
             $table->timestamp('transaction_time');
+            $table->string('guest');
+            $table->string('bo');
             $table->integer('total_price');
             $table->foreignId('kasir_id')->constrained('users');
             $table->enum('payment_method', ['Tunai', 'QRIS']);

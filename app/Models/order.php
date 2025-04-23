@@ -12,6 +12,8 @@ class order extends Model
     protected $fillable =
     [
         'transaction_time',
+        'guest',
+        'bo',
         'total_price',
         'total_item',
         'kasir_id',
